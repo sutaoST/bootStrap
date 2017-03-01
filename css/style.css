@@ -1,0 +1,38 @@
+.content{
+    width: 1200px;
+    height: 200px;
+    background: red;
+    margin:0 auto;
+}
+
+
+
+/*小于768px*/
+/* @media screen and (max-width: 768px){
+   .content{
+    width: 500px;
+    height: 500px;
+    background: yellow;
+   } 
+}
+ */
+/*小于320px*/
+/* @media screen and (max-width: 320px){
+    .content{
+    width: 300px;
+    height: 200px;
+    background: blue;
+   } 
+} */
+
+
+/*768>?<980*/
+
+/*大于768小于980*/
+@media (min-width: 768px) and (max-width: 980px){
+    .content{
+    width: 500px;
+    height: 500px;
+    background: green;
+   } 
+}
